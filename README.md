@@ -11,9 +11,12 @@ Steps to follow to access the project;
 * Press Enter to create your local clone
 
 ## Technologies Used
+
 *HTML
-* css
+*CSS
+
+
 
 ### License
-This project is under the MIT licence.
+This project is under the [MIT licence](LICENCE).
 Copyright (c) {2021} **{JULIANA ALIKUTEPA}**
