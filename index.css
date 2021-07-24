@@ -17,6 +17,10 @@ body{
     .section1{
         margin: 50px;
     }
+    h1{
+        text-align: center;
+        
+    }
 
 .together img{
     float: left;
@@ -40,3 +44,36 @@ body{
     padding: 10px;
     margin: 70px;
 }
+.deals{
+    background-color:#C9ECB5 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.contact{
+    background-color: #FFD77C;
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+.footer{
+    background-color: #C9ECB5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;    
+}
+#time{
+    border-right-style: dashed;
+    border-color: #6CB840;
+    padding: 20px;
+}
+button{
+    background-color:#6CB840 ;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
