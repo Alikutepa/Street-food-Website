@@ -1,6 +1,6 @@
 body{
     width: 100%;
-    margin: 4px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -12,7 +12,7 @@ body{
         padding: 20px;
     }
     .header{
-        background-color: #649549;
+        background-color: lightgray;
     }
     .section1{
         margin: 50px;
@@ -42,11 +42,13 @@ body{
     border-style: none;
     border-bottom-right-radius: 70px;
     text-align: right;
-    padding: 20px;
+    padding: 10px;
     margin: 70px;
 }
+.deal-section{
+    background-color: #C9ECB5;
+}
 .deals{
-    background-color: #6CB840;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -77,5 +79,19 @@ button{
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 30px;
+    font-size: 30px;
 }
+.merge .img1{
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.merge .img2{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+   
+}
+    
