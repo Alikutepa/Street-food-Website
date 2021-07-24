@@ -1,0 +1,9 @@
+body{
+    width: 100%;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Poppins';
+    font-size: 150%;
+    }
