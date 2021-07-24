@@ -22,10 +22,11 @@ body{
         
     }
 
-.together img{
-    float: left;
-    justify-content: space-around;
-    align-items: center;
+.together{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
 }
 .menu{
     background-color: rgb(215, 245, 235);
@@ -77,3 +78,4 @@ button{
     text-align: center;
     text-decoration: none;
     border-radius: 20px;
+}
