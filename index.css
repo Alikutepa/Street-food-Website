@@ -9,11 +9,28 @@ body{
     }
     li{
         display: inline-block;
-        padding: 20px;
+        padding: 50px;
     }
     .header{
-        background-color: lightgray;
+            position: relative;
+            z-index: 0;
+            background: rgb(235, 235, 235);
+            padding-bottom: 40px;
     }
+    .header:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        clip-path: circle(42.7% at 70% 0);
+        opacity: 1;
+        background-color:  #649549
+        
+    }
+
     .section1{
         margin: 50px;
     }
@@ -21,11 +38,17 @@ body{
         text-align: center;
         
     }
+    .content1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
 .together{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
     
 }
 .menu{
@@ -82,16 +105,5 @@ button{
     border-radius: 30px;
     font-size: 30px;
 }
-.merge .img1{
-    position:relative;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-.merge .img2{
-    position: absolute;
-    top: 25px;
-    left: 25px;
+
    
-}
-    
