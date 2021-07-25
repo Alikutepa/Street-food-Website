@@ -47,9 +47,7 @@ body{
 .together{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    
-    
+    justify-content: space-evenly;    
 }
 .menu{
     background-color: rgb(235, 235, 235);
@@ -70,6 +68,21 @@ body{
 }
 .deal-section{
     background-color: #C9ECB5;
+}
+.merge{
+    position: relative;
+}
+.img1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+.img2{
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    z-index: 3;
 }
 .deals{
     display: flex;
@@ -105,5 +118,6 @@ button{
     border-radius: 30px;
     font-size: 30px;
 }
+
 
    
